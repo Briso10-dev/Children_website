@@ -1,89 +1,88 @@
+# Designing a children website
+<div align="center">
 
-# @Project 15 : Designing a children website
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)]()
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)]()
 
-## Overview
+</div>
 
-Consisting of designing a webpage of helping posponing children in needs.
+## 📋 Overview
+
+A modern, responsive web platform designed for children in needs. Consisting of designing a webpage of helping posponing children in needs.
 
 ## Screenshot
 
 ![App Screenshot](/public/webpage.svg)
 
-## Features
+## ✨ Features
 
-- TypeScript for static typing and advanced code intelligence
-- React for single page effects with hooks facilities
-- ESLint and Prettier for code quality and formatting
+- 🔐 Secure authentication system with OTP verification
+- 📱 Fully responsive design for all devices
+- 🎨 Modern UI with Tailwind CSS
+- 🔄 Real-time updates
+- 🐳 Docker support for easy deployment
+
 
 ## Prerequisites
 
 - Node.js >= 20.12.0
 - Yarn >= 1.22.19
 
-## Getting Started
+## 🛠️ Tech Stack
 
-### Installation
+| Category | Technologies |
+|----------|--------------|
+| Frontend | ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) |
+| Backend | ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) |
+| DevOps | ![Docker](https://img.shields.io/badge/docker-%230db.svg?style=flat&logo=docker&logoColor=white) |
 
-Clone the repository and install dependencies:
+## 🖼️ Screenshots
 
-```bash
-git clone https://github.com/worketyamo/ts-starter.git
-cd ts-starter
-yarn install
-```
+### Authentication Flow
+![Signup page](./public/Connexion.svg)
+![Verification OTP](./public/verification-otp.svg)
 
-### Execution in development mode
+## 🚀 Quick Start
 
-To start the development server with automatic restarts on file changes, use:
-
-```bash
-yarn dev
-```
-
-### Project Compilation
-
-To compile the project for production, use:
+### Using Docker (Recommended)
 
 ```bash
-yarn build
+# Clone the repository
+git clone https://github.com/Briso10-dev/Children_website.git
+
+# Navigate to project directory
+cd Startup_Plateform
+
+# Build and run with Docker
+docker build -t children website .
+docker run -p 3000:3000 Children_website
 ```
 
-### Starting of application
-
-To start the application after compilation, use:
+### Manual Setup
 
 ```bash
-yarn start
+# Clone the repository
+git clone https://github.com/Briso10-dev/Children_website.git
+
+# Navigate to project directory
+cd Startup_Plateform
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
-
-## Scripts
-
-- **dev** : Starts the development server with ts-node-dev
-- **build** :  Cleans the dist folder and compiles TypeScript code
-- **start** : Runs the compiled JavaScript code from the dist folder
-
-## Utilization
-
-Starting the Server
-To start the server, run the following command:
-
-```bash
-yarn start
-```
-The server will be launched on port : http://localhost:5173
-
-## License
-
-This exercice is licensed under WORKETYAMO.
-
-## Contributions
-
-Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Additional Informations
 
 For any questions or additional support, please contact the project maintainers.
 
-## Autor
+## 📄 License
 
-- [@Kouam Brice](https://github.com/Briso10-dev)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- [@Kouam Brice](https://github.com/Briso10-dev) - Tech Dreamer
