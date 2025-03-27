@@ -37,12 +37,6 @@ A modern, responsive web platform designed for children in needs. Consisting of 
 | Backend | ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) |
 | DevOps | ![Docker](https://img.shields.io/badge/docker-%230db.svg?style=flat&logo=docker&logoColor=white) |
 
-## 🖼️ Screenshots
-
-### Authentication Flow
-![Signup page](./public/Connexion.svg)
-![Verification OTP](./public/verification-otp.svg)
-
 ## 🚀 Quick Start
 
 ### Using Docker (Recommended)
